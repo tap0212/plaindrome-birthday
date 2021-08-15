@@ -26,6 +26,7 @@
     },
     "dependencies": {
         "bootstrap": "^4.6.0",
-        "lodash": "^4.17.20"
+        "lodash": "^4.17.20",
+        "moment": "^2.29.1"
     }
 }

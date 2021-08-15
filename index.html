@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Is your birthday palindrome</title>
 </head>
-<body>
+<body class="wrapper">
+    <div class="top-bar flex-center-col" >
+        <h1 class="head1">Question: Is your birthday palindrome?</h1>
+        <h2 class="sub-head">Let's find it out!</h2>
+        <main class="cover flex-center-col">
+            <input type="date" name="dob"  id="dob-input">
+            <p class="error-text" id="error-dob"></p>
+            <button class="btn" id="button">Please find it out!</button>
+        </main>
+    </div>
+    <div class="bottom-bar flex-center-row">
+        <div class="col flex-center-col">
+            <video class="video" id="video" muted autoplay loop ></video>
+        </div>
+        <div class="col flex-center-col">
+            <h2 class="head2" id="status"></h2>
+        </div>
+    </div>
 <script src="./src/js/main.js"></script>
 </body>
 </html>
